@@ -1,7 +1,7 @@
 
-# 🎵 ProFunk Audio - Professional Sound & Music Library
+# 🎵 ProFunk Audio - Professional Sound & Music Library Demo
 
-ProFunk Audio is a high-performance, modern web application designed for content creators, sound designers, and music producers. It provides an intuitive interface to browse and download from a library of 160,000+ professional sound effects and royalty-free music.
+ProFunk Audio is a high-performance, modern web application demo designed for content creators, sound designers, and music producers. It provides an intuitive interface to browse and download from a library of 160,000+ professional sound effects and royalty-free music.
 
 **🚀 Live Demo:** [profunk-audio-psi.vercel.app](https://profunk-audio-psi.vercel.app/)
 
