@@ -1,4 +1,4 @@
-import React from 'react';
+im
 import { FileText } from 'lucide-react'; 
 
 const PopularEffect = () => {
