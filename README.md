@@ -28,8 +28,8 @@ ProFunk Audio is a high-performance, modern web application designed for content
 
 ---
 
-## 📂 Project Structure
 
+## 📂 Project Structure
 ```text
 src/
 ├── assets/           # Media assets (Logo, Video, Icons)
@@ -43,13 +43,13 @@ src/
 │   └── Home.jsx
 ├── App.jsx           # Main routing setup
 └── main.jsx
+```
 
 
 
----
+
 
 ## 📦 Installation & Setup
-
 1. **Clone the Repo:**
 ```bash
 git clone [https://github.com/najatul6/Profunk-Audio.git](https://github.com/najatul6/Profunk-Audio.git)
