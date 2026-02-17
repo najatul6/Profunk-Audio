@@ -32,17 +32,21 @@ ProFunk Audio is a high-performance, modern web application demo designed for co
 ## 📂 Project Structure
 ```text
 src/
-├── assets/           # Media assets (Logo, Video, Icons)
+├── assets/           # Logo, Video, and Icons
 ├── components/
 │   ├── Home/         # Hero, LatestSound, PopularEffect, WhyChoose, OurSound, CTA
 │   ├── Shared/       # Navbar, Footer
-│   └── UI/           # Custom Reusable Components
+│   └── UI/           # Reusable Components (Buttons, Input)
 ├── layouts/
-│   └── RootLayout.jsx
+│   └── RootLayout.jsx # Header/Footer container
 ├── pages/
-│   └── Home.jsx
-├── App.jsx           # Main routing setup
-└── main.jsx
+│   ├── Home/
+│   │   └── Home.jsx  # Main Landing Page
+│   └── About/
+│       └── About.jsx # About Page content
+├── Routes/
+│   └── Routes.jsx    # React Router DOM configuration
+└── main.jsx          # Entry point (Router Provider)
 ```
 
 
