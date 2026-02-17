@@ -84,7 +84,7 @@ const Footer = () => {
         </div>
 
         <div className="relative z-10 mt-16 pt-8 border-t border-gray-800 flex flex-col md:row justify-between items-center gap-4">
-          <div className="flex items-center space-x-2 justify-between w-full">
+          <div className="flex flex-col-reverse md:flex-row items-center space-x-2 justify-between w-full">
             <p className="text-gray-500 text-xs uppercase tracking-widest">
               &#35; Developed by{" "}
               <Link
