@@ -9,7 +9,7 @@ const Navbar = () => {
     "text-gray-700 hover:text-black flex items-center transition-colors";
 
   return (
-    <nav className="bg-white px-6 py-4 shadow-sm">
+    <nav className="bg-white px-6 py-4 shadow-sm rounded-b-2xl">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         {/* Logo Section */}
         <div className="flex flex-col items-center leading-none">
