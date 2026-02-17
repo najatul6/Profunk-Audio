@@ -1,4 +1,3 @@
-import React from 'react';
 import { CheckCircle2, ShieldCheck, MessageCircle } from 'lucide-react';
 
 const OurSound = () => {
@@ -29,7 +28,6 @@ const OurSound = () => {
   return (
     <section className="bg-[#fdfaf5] py-20 px-6 sm:px-10">
       <div className="max-w-7xl mx-auto">
-        {/* Header Section */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-black text-[#1e1e26] tracking-tighter mb-4">
             Our Sound Catalogue Advantages
@@ -39,19 +37,16 @@ const OurSound = () => {
           </p>
         </div>
 
-        {/* Advantage Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-0 rounded-[40px] overflow-hidden">
           {advantages.map((item, index) => (
             <div 
               key={index} 
               className={`p-10 md:p-14 flex flex-col items-start min-h-87.5 ${item.bgColor}`}
             >
-              {/* Icon Box */}
               <div className={`p-3 rounded-xl border ${item.iconContainer} mb-8`}>
                 {item.icon}
               </div>
 
-              {/* Content */}
               <h3 className="text-2xl font-bold mb-6 leading-tight">
                 {item.title}
               </h3>

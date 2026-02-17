@@ -11,12 +11,10 @@ const Navbar = () => {
   return (
     <nav className="bg-white px-6 py-4 shadow-sm rounded-b-2xl">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
-        {/* Logo Section */}
         <div className="flex flex-col items-center leading-none">
           <img src={logo} alt="Logo" />
         </div>
 
-        {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-8">
           <ul className="flex items-center space-x-8 text-sm font-medium text-gray-700">
             <li className="flex items-center">
@@ -86,7 +84,6 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden mt-4 pb-4 animate-fadeIn">
           <ul className="flex flex-col space-y-4 text-center text-sm font-medium text-gray-700">

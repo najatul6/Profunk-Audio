@@ -1,4 +1,3 @@
-import React from "react";
 import { Watch } from "react-loader-spinner";
 
 const About = () => {

@@ -1,4 +1,3 @@
-import React from "react";
 import { FaFacebookF, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import logo from "../../assets/logo.png";
@@ -23,7 +22,6 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Quick Links */}
           <div className="md:col-span-2">
             <h4 className="font-semibold mb-6">Quick Link</h4>
             <ul className="space-y-4 text-gray-400 text-sm">
