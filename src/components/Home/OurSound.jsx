@@ -7,21 +7,21 @@ const OurSound = () => {
       title: "Professionally Recorded Sounds",
       desc: "You'll get access to an extensive library of pro level sounds that have been used in some of the world's most recognisable media.",
       icon: <CheckCircle2 size={24} />,
-      bgColor: "bg-black text-white",
+      bgColor: "bg-gray-50 hover:bg-black hover:text-white",
       iconContainer: "border-white/20"
     },
     {
       title: "Safe to use",
       desc: "All our free sounds and music are safe to use for any non-commercial and commercial use, even for broadcast. We check every file for quality.",
       icon: <ShieldCheck size={24} />,
-      bgColor: "bg-white text-black shadow-sm",
+      bgColor: "bg-white hover:bg-black text-black hover:text-white shadow-sm",
       iconContainer: "border-gray-200"
     },
     {
       title: "Excellent support",
       desc: "We're always here if you need us. Contact anytime, we typically respond within a few hours, often even faster.",
       icon: <MessageCircle size={24} />,
-      bgColor: "bg-gray-50 text-black",
+      bgColor: "bg-gray-50 hover:bg-black hover:text-white",
       iconContainer: "border-gray-200"
     }
   ];
@@ -44,7 +44,7 @@ const OurSound = () => {
           {advantages.map((item, index) => (
             <div 
               key={index} 
-              className={`p-10 md:p-14 flex flex-col items-start min-h-[350px] ${item.bgColor}`}
+              className={`p-10 md:p-14 flex flex-col items-start min-h-87.5 ${item.bgColor}`}
             >
               {/* Icon Box */}
               <div className={`p-3 rounded-xl border ${item.iconContainer} mb-8`}>
