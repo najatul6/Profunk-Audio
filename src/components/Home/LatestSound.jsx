@@ -57,7 +57,7 @@ const LatestSound = () => {
             <div className="p-5">
               <div className="flex gap-4 items-start mb-6">
                 <div className="w-14 overflow-hidden h-14 bg-white border border-gray-200 rounded-xl flex items-center justify-center shrink-0 font-bold text-[10px] leading-tight text-center">
-                 <img src={musicslogo} alt="" />
+                  <img src={musicslogo} alt="Brand Logo" />
                 </div>
                 <h3 className="text-sm font-bold text-gray-800 leading-snug">
                   {sound.title}
